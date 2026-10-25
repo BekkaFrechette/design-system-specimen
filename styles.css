@@ -1,71 +1,20 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
 /*CSS Variables*/
 :root { 
-    --red: #E51D01;
-    --blue: #00D4E5;
-    --green: #17C100;
-    --purple: #8611D1;
-    --pink: #DB74D4;
-    --yellow: #F5EEA4;
+    --red: #de513e;
+    --blue: #86c3c8;
+    --green: #9bc396;
+    --purple: #c19cd9;
+    --pink: #dd5cd5;
+    --yellow: #ece27b;
 
-    --fonts: Audiowide, Electrolize;
+    --fonts: Rubik, Arial;
 }
 
 
 body {
-    background-color: var(--blue);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23ff1818' fill-opacity='0.79' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
+    background-color: var(--green);
     font-family: var(--fonts);
-    color: var(--green);
+    color: var(--red);
     margin: 0;
 
 }
@@ -79,11 +28,11 @@ header, main, footer {
     padding: 30px 220px;
     margin: 0 auto;
     width: 1000px;
-    background-color: var(--yellow);
+    background-color: var(--purple);
 }
 
 header {
-    height: 227px;
+    height: 230px;
     text-align: center;
 }
 
@@ -111,12 +60,12 @@ nav a{
     padding: 1rem;
     text-decoration: none;
     font-weight: bold;
-    background-color: var(--purple);
+    background-color: var(--blue);
     color: var(--pink);
 }
 
 nav a:hover{
-    color: var(--red);
+    color: var(--green);
     background-color: var(--blue);
 }
 
