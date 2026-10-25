@@ -8,26 +8,23 @@
     --yellow: #ece27b;
 
     --fonts: Rubik, Arial;
+    --size: 15px;
 }
 
 
 body {
+    margin: 0;
+    color: var(--red);
     background-color: var(--green);
     font-family: var(--fonts);
-    color: var(--red);
-    margin: 0;
-
+    font-size: var(--size);
 }
 
-.container {
-    margin: auto;
-    width: 1000px;
-}
 
 header, main, footer {
-    padding: 30px 220px;
-    margin: 0 auto;
-    width: 1000px;
+    padding: clamp(1rem, 5vw, 3rem);
+    max-width: auto;
+    max-height: auto;
     background-color: var(--purple);
 }
 
