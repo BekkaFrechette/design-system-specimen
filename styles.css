@@ -23,8 +23,8 @@ body {
 
 header, main, footer {
     padding: clamp(1rem, 5vw, 3rem);
-    max-width: 0;
-    max-height: 0;
+    max-width: 1000px;
+    max-height: 1000px;
     background-color: var(--purple);
 }
 
